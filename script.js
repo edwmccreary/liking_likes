@@ -1,8 +1,8 @@
-likes = {
-    "user_like_count" : 3,
+likes = {   
     "neil_m" : 9,
     "nichole_k" : 12,
-    "jim_r" : 9
+    "jim_r" : 9,
+    "user_like_count" : 3
 };
 
 function update_likes(){
