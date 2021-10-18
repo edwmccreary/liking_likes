@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="navbar">
+            <h1>Network</h1>
+        </div>
+        <h1 id="your_feed">Your Feed</h1>
+        <div class="flexed">
+            <div class="avatar_box">
+                <div class="flexed">
+                    <img src="./icons/user-circle.png" alt="user_icon" class="avatar_img">
+                </div>
+                <div class="flexed margin_tb_10">
+                    <a href="" >Add an avatar</a>
+                </div>
+                <div class="flexed margin_tb_10">
+                    <h3>James Doe</h3>
+                </div>
+            </div>
+            <div>
+                <div class="user_box">
+                    <div class="user_name_row">
+                        <div>
+                            <h2>Neil M</h2>
+                        </div>
+                        <div class="user_likes">
+                            <h3 id="neil_m">0 like(s)</h3>
+                            <button class="button_like" onclick="like('neil_m')"><h2>Like</h2></button>
+                        </div>
+                    </div>
+                    <div class="user_text">
+                        <p>I just set up this new discord bot, let me know what you all think. <a href="">link</a></p>
+                    </div>
+                </div>
+
+                <div class="user_box">
+                    <div class="user_name_row">
+                        <div>
+                            <h2>Nichole K</h2>
+                        </div>
+                        <div class="user_likes">
+                            <h3 id="nichole_k">0 like(s)</h3>
+                            <button class="button_like" onclick="like('nichole_k')"><h2>Like</h2></button>
+                        </div>
+                    </div>
+                    <div class="user_text">
+                        <p>Just finished my <a href="">next comic</a>, check it out.</p>
+                    </div>
+                </div>
+
+                <div class="user_box">
+                    <div class="user_name_row">
+                        <div>
+                            <h2>Jim R</h2>
+                        </div>
+                        <div class="user_likes">
+                            <h3 id="jim_r">0 like(s)</h3>
+                            <button class="button_like" onclick="like('jim_r')"><h2>Like</h2></button>
+                        </div>
+                    </div>
+                    <div class="user_text">
+                        <p>I can't stop listening to the <a href="">new album</a>. Who else is liking it?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
